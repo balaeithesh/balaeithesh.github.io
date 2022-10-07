@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.balaeithesh {
+    background-color: black;
+    padding-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: white;
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 17px 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: 1s;
+}
+
+.button p{
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    background-color: red;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+span {
+    color: red;
+}
+
+.hi img{
+    
+    height: 500px;
+    width: 350px;
+    margin-top: 100px ;
+    margin-left: 190px;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    /* margin-top: 1px; */
+    /* margin-bottom: 1px; */
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    padding: 5px 0px 5px 0px;
+    font-size: 60px;
+    padding-bottom: 35px;
+}
+
+h3 {
+    color: white;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+h4 {
+    color: rgb(255, 142, 142);
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+
+.mail input:first-child {
+    padding: 7px;
+    border-radius: 30px;
+    border: 2px solid red;
+    margin-top: 10px;
+}
+
+.mail input:last-child {
+    
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid red;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.mail input:last-child:hover{
+    background: transparent;
+}
+
+.bio {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    background: black;
+    /* margin-bottom: 1px; */
+}
+
+.explanation {
+    padding-left: 50px;
+}
+
+.explanation h2 {
+    color: white;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+
+.explanation p {
+    color: white;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+
+.explanation button {
+    border: 2px solid;
+    border-color: red;
+}
+
+.explanation button:hover {
+    background: transparent;
+}
+
+button {
+    color: white;
+    background-color: red;
+    padding: 12px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.service {
+    background: black;
+    width: 100%;
+    
+}
+
+.title h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding-bottom: 50px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: grey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    margin: 15px auto;
+    display: block;
+    text-align: center;
+}
+
+.card h5 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    color: rgb(255, 142, 142);
+}
+
+.para p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.para a:hover{
+    transform: scale(1.1);
+}
+
+.para a {
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 1s;
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    /* margin-top: 1px; */
+}
+
+footer p:nth-child(1) {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.media {
+    display: flex;
+}
+
+.media i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 22px 10px;
+    transition: 0.5s;
+}
+
+.media a {
+    text-decoration: none;
+}
+
+.media i:hover {
+    transform: scale(1.1);
+}
