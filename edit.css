@@ -163,6 +163,11 @@ h4 {
     background: transparent;
 }
 
+.explanation a{
+    color: white;
+    text-decoration: none;
+}
+
 button {
     color: white;
     background-color: red;
@@ -294,3 +299,4 @@ footer p:nth-child(2) {
 .media i:hover {
     transform: scale(1.1);
 }
+
