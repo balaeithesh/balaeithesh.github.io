@@ -208,10 +208,14 @@ button {
     border-radius: 20px;
     margin: 15px;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
     text-align: center;
 }
 
+.card::-webkit-scrollbar {
+    display: none;
+}
+  
 .card i {
     margin: 15px auto;
     display: block;
