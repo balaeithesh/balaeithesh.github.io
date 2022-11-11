@@ -313,6 +313,7 @@ h4 {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 20px 0 20px 0;
     }
     nav ul{
         flex-direction: column;
@@ -323,12 +324,21 @@ h4 {
     }
     #box{
         flex-direction: column;
+        padding: 0;
+    }
+    .para p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .card h5 {
+        font-size: 20px;
     }
     .mail h3{
         padding-bottom: 0;
     }
     #bio{
         flex-direction: column;
+        padding-bottom: 50px;
     }
     .explanation h2{
         margin-top: 50px;
