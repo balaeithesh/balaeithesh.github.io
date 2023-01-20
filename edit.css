@@ -290,6 +290,28 @@ h4 {
     text-decoration: none;
 }
 
+.fa-solid{
+    color: white;
+}
+
+.hamburger{
+    display: none;
+}
+
+.openclose{
+    transform: translateX(0%);
+    transition: 0.7s;
+}
+
+.movedown{
+    transition: 1.8s;
+}
+
+.move{
+    transform: translateY(145px);
+    transition: 0.4s;
+}
+
 @media only screen and (max-width:1100px) {
     
     .mail{
@@ -297,7 +319,33 @@ h4 {
     }
 }
 @media only screen and (max-width:750px) {
-    
+
+    .hamburger{
+        display: block;
+        position: absolute;
+        cursor: pointer;
+        right: 30px;
+        top: 35px;
+    }
+    nav ul{
+        position: fixed;
+        top: 75px;
+        transform: translateX(100%);
+        text-align: center;
+        right: 0;
+        flex-direction: column;
+        transition: 0.7s;
+    }
+    #nav{
+        background: rgb(102, 102, 153,0.5);
+        width: 100%;
+    }
+    .button{
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: small;
+    }
     #about{
         flex-direction: column;
     }
@@ -314,10 +362,6 @@ h4 {
         align-items: center;
         justify-content: center;
         padding: 20px 0 20px 0;
-    }
-    nav ul{
-        flex-direction: column;
-        padding: 30px 0 30px 0;
     }
     nav h1{
         padding: 0;

@@ -9,113 +9,129 @@
         <link rel="stylesheet" type="text/css" href="edit.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <title>Bala's Portfolio</title>
     </head>
 
     <body>
         <div class="balaeithesh">
-            <nav>
+            <nav data-aos="fade-down">
                 <h1>Port<span>folio</span></h1>
-                <ul>
+                <ul id="nav">
                     <div><li><a href="#about">Home</a></li></div>
                     <div><li><a href="#bio">About</a></li></div>
                     <div><li><a href="#box">Education</a></li></div>
                     <div><li><a href="#footer">Contact</a></li></div>
                 </ul>
                 <a class="button"><p>Like</p></a>
+                <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
             </nav>
         </div>
-        <div id="about">
-            <div class="mail">
-                <h4>My name is,</h4>
-                <h1>Bala <span>Eithesh</span></h1>
-                <h3>I am a web developer.</h3>
-                <!-- <form>
+        <div class="movedown">
+            <div id="about">
+                <div class="mail" data-aos="fade-right" data-aos-delay= 700>
+                    <h4>My name is,</h4>
+                    <h1>Bala <span>Eithesh</span></h1>
+                    <h3>I am a web developer.</h3>
+                    <!-- <form>
                     <input type="email" name="email" id="mail"
                         placeholder="Enter your email">
                     <input type="submit" name="submit" value="Go">
                 </form> -->
+                </div>
+                <div class="hi" data-aos="fade-left" data-aos-delay= 700>
+                    <img src="./IMG_0369-01.jpeg" alt="mypic">
+                </div>
             </div>
-            <div class="hi">
-                <img src="./IMG_0369-01.jpeg" alt="mypic">
+            <section id="bio">
+                <div class="pic" data-aos="fade-right">
+                    <img src="./20200914_164622.jpg" width="350px"
+                        height="500px"
+                        alt="picture">
+                </div>
+                <div class="explanation" data-aos="fade-left">
+                    <h2>ABOUT <span>ME</span></h2>
+                    <p>I am a Mechatronics engineer.
+                        Though
+                        I
+                        am interested in web designing.
+                    </p>
+                    <button><a href="https://wa.me/917598926468"
+                            target="_blank">Let's
+                            chat !</a></button>
+                </div>
+            </section>
+            <div class="service">
+                <div class="title" data-aos="fade-down">
+                    <h2>EDUCATION</h2>
+                </div>
+                <div id="box" data-aos="fade-down" data-aos-delay= 300>
+                    <div class="card">
+                        <i class="fa-solid fa-graduation-cap fa-3x"></i>
+                        <h5>B.E</h5>
+                        <div class="para">
+                            <p>Currently i am pursuing my bachelor's in the
+                                field of
+                                MECHATRONICS Engineering from Sona college of
+                                Technology.
+                            </p>
+
+                            <!-- <a href="#">Read more</a> -->
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-building-columns fa-3x"></i>
+                        <h5>12th</h5>
+                        <div class="para">
+                            <p>I have scored 73% in my HSC grade from Alpha
+                                matriculation higher secondary school.
+                            </p>
+
+                            <!-- <a href="#">Read more</a> -->
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-school fa-3x"></i>
+                        <h5>10th</h5>
+                        <div class="para">
+                            <p>I have scored 95.2% in my SSLC grade from Alpha
+                                matriculation higher secondary school.
+                            </p>
+
+                            <!-- <a href="#">Read more</a> -->
+
+                        </div>
+                    </div>
+                </div>
             </div>
+            <footer>
+                <div id="footer">
+                    <p data-aos="fade-down">BALA EITHESH</p><br>
+                    <p data-aos="fade-down" data-aos-delay= 200><span
+                            style="color: white;">To know
+                            more about me, ping
+                            me on
+                            instagram.</span></p>
+                    <div class="media" data-aos="fade-down" data-aos-delay= 300>
+                        <a href="https://www.instagram.com/balaeithesh_01_/"
+                            target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="end">
+                        <p>&#169 by bala <span>eithesh.</span></p>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <section id="bio">
-            <div class="pic">
-                <img src="./20200914_164622.jpg" width="350px" height="500px"
-                    alt="picture">
-            </div>
-            <div class="explanation">
-                <h2>ABOUT <span>ME</span></h2>
-                <p>Hi, myself BALA!!<br><br>I am a Mechatronics engineer. Though
-                    I
-                    am intrested in web designing.
-                </p>
-                <button><a href="https://wa.me/917598926468" target="_blank">Let's
-                        chat !</a></button>
-            </div>
-        </section>
-        <div class="service">
-            <div class="title">
-                <h2>EDUCATION</h2>
-            </div>
-            <div id="box">
-                <div class="card">
-                    <i class="fa-solid fa-graduation-cap fa-3x"></i>
-                    <h5>B.E</h5>
-                    <div class="para">
-                        <p>Currently i am pursuing my bachelor's in the field of
-                            MECHATRONICS Engineering from Sona college of
-                            Technology.
-                        </p>
-
-                        <!-- <a href="#">Read more</a> -->
-
-                    </div>
-                </div>
-                <div class="card">
-                    <i class="fa-solid fa-building-columns fa-3x"></i>
-                    <h5>12th</h5>
-                    <div class="para">
-                        <p>I have scored 73% in my HSC grade from Alpha
-                            matriculation higher secondary school.
-                        </p>
-
-                        <!-- <a href="#">Read more</a> -->
-
-                    </div>
-                </div>
-                <div class="card">
-                    <i class="fa-solid fa-school fa-3x"></i>
-                    <h5>10th</h5>
-                    <div class="para">
-                        <p>I have scored 95.2% in my SSLC grade from Alpha
-                            matriculation higher secondary school.
-                        </p>
-
-                        <!-- <a href="#">Read more</a> -->
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <div id="footer">
-                <p>BALA EITHESH</p><br>
-                <p><span style="color: white;">To know more about me, ping me on
-                        instagram.</span></p>
-                <div class="media">
-                    <a href="https://www.instagram.com/balaeithesh_01_/"
-                        target="_blank"><i
-                            class="fa-brands fa-instagram"></i></a>
-                </div>
-                <div class="end">
-                    <p>&#169 by bala <span>eithesh.</span></p>
-                </div>
-            </div>
-        </footer>
-
-
     </body>
+    <script src="bala.js"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
 </html>
